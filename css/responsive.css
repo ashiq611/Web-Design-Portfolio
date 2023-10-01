@@ -1,0 +1,156 @@
+@media (min-width: 320px) and (max-width: 768.98px) {
+
+    /* common css starts */
+
+    .title-head {
+        font-size: 20px;
+    }
+
+    .title-details{
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+    
+      .title-pera{
+        font-size: 10px;
+        line-height: 22px;
+      }
+
+
+    /* cpmmon css ends  */
+
+    /* nav starts */
+
+    nav .design a{
+        font-size: 14px;
+    }
+
+
+    /* nav ends */
+
+    /* banner starts */
+    #banner-main .banner {
+        padding: 0px 0px;
+    }
+
+    #banner-main .banner .left h2 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    #banner-main .banner .left p {
+        font-size: 10px;
+    }
+
+    #banner-main .banner .left {
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    #banner-main .banner .right img{
+        width: 100%;
+}
+
+
+
+
+    /* banner ends */
+
+    /* tech starts  */
+
+    #tech-main {
+        padding: 50px 20px;
+    }
+
+    #tech-main .tech .title{
+        margin-bottom: 10px;
+    }
+
+    #tech-main .tech .tech-items img{
+        margin-right: 0px;
+      }
+
+      
+
+
+
+    /* tech ends */
+
+    /* about starst */
+
+    #about-main .about .left img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #about-main .about .left .round{
+       /* width: 50%; */
+       bottom: 0%;
+       right: 4%;
+       width: 100px;
+    }
+
+    
+
+
+
+
+    /* about ends */
+
+    /* proejct starts */
+    
+    #project-main {
+        padding: 60px 0px;
+    }
+
+    #project-main .project .title-details{
+        margin-bottom: 25px;
+      }
+
+    #project-main .project .project-details{
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+    #project-main .project .project-img img{
+        width: 100%;
+    }
+
+
+    /* #project-main .project .project-item{
+        margin: 0px 30px;
+
+    } */
+
+
+    /* project ends */
+
+    /* conatct starts */
+
+    #contact-main .contact .location h5,h3{
+        font-size: 20px;
+      }
+
+      #contact-main .contact .location{
+          justify-content: flex-start !important;
+          
+        }
+        
+        #contact-main .contact .location .left, .right{
+            padding: 0px 5px;
+        }
+
+    /* contact ends */
+
+    /* footer starts */
+
+    #footer-main .footer p, .footer-link a{
+          font-size: 14px;
+      }
+
+
+
+    /* footer ends */
+
+}

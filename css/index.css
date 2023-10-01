@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  @media (min-width: 1400px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+      max-width: 1400px;
+    }
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  a {
+    display: inline-block;
+    text-decoration: none;
+  }
+
+
+  /* common css starts */
+
+  .title-head{
+    font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: #164DDB;
+
+  }
+
+  .title-details{
+    font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 14px;
+        margin-bottom: 32px;
+  }
+
+  .title-pera{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+
+
+  /* common css ends */
+
+  /* nav starts */
+  nav .design a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #0d0d0d;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+  nav .design a:hover{
+    color: #164DDB;
+}
+
+.nav-logo-design{
+  font-family: 'Caveat', cursive;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+
+    /* nav ends */
+
+
+
+  /* banner starts */
+
+  #banner-main .banner{
+    padding: 80px 220px;
+  }
+
+  #banner-main .banner .left{
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+    
+    #banner-main .banner .left h2{
+        font-family: 'Poppins', sans-serif;
+        font-size: 64px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    
+    #banner-main .banner .left h2 span{
+        color: #084ACB;
+    }
+    
+    #banner-main .banner .left p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    #banner-main .banner .left p span{
+        color: #084ACB;
+    }
+
+    #banner-main .banner .link a{
+        font-size: 30px;
+        color: black;
+        margin: 10px;
+    }
+
+    #banner-main .banner .right{
+      animation: ani 4s infinite linear;
+      -webkit-animation: ani 4s infinite linear;
+}
+
+@keyframes ani {
+
+  0%{
+    transform:scaleX(0.8) scaleY(0.7) scaleZ(0.8);
+    -webkit-transform:scaleX(0.8) scaleY(0.7) scaleZ(0.8);
+    -moz-transform:scaleX(0.8) scaleY(0.7) scaleZ(0.8);
+    -ms-transform:scaleX(0.8) scaleY(0.7) scaleZ(0.8);
+    -o-transform:scaleX(0.8) scaleY(0.7) scaleZ(0.8);
+}
+
+50%{
+  transform: scaleX(0.7) scaleY(0.6) scaleZ(0.7);
+  -webkit-transform: scaleX(0.7) scaleY(0.6) scaleZ(0.7);
+  -moz-transform: scaleX(0.7) scaleY(0.6) scaleZ(0.7);
+  -ms-transform: scaleX(0.7) scaleY(0.6) scaleZ(0.7);
+  -o-transform: scaleX(0.7) scaleY(0.6) scaleZ(0.7);
+}
+
+100%{
+  transform: scaleX(0.8) scaleY(0.7) scaleZ(0.8);
+  -webkit-transform: scale3d(0.4);
+  -moz-transform: scaleX(0.8) scaleY(0.7) scaleZ(0.8);
+  -ms-transform: scaleX(0.8) scaleY(0.7) scaleZ(0.8);
+  -o-transform: scaleX(0.8) scaleY(0.7) scaleZ(0.8);
+  -webkit-transform: scaleX(0.8) scaleY(0.7) scaleZ(0.8);
+}
+  
+}
+
+
+
+  /* banner ends */
+
+
+  /* Tech starts */
+/* 
+  #tech-main .tech .title h4::after{
+    content: "";
+    width: 5px;
+    height: 40px;
+    background-color: black;
+  } */
+
+  #tech-main{
+    padding: 100px 50px;
+  }
+
+  #tech-main .tech .title{
+    margin-right: 100px ;
+    position: relative;
+  }
+  
+  #tech-main .tech .title .icon {
+    position: absolute;
+    top: -100%;
+    left: 20%;
+    animation: up-down 4s infinite linear ;
+        -webkit-animation: up-down 4s infinite linear ;
+  }
+
+  @keyframes up-down {
+
+    0%{
+      top: -100%;
+    }
+
+    50%{
+      top: -150%;
+    }
+
+    100%{
+      top: -100%;
+    }
+    
+}
+
+  #tech-main .tech .tech-items img{
+    margin-right: 10px;
+  }
+
+  #tech-main .tech .title h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+
+
+
+
+  /* Tech ends  */
+
+  /* about starts */
+
+  #about-main .about .left{
+    position: relative;
+}
+
+#about-main .about .left .round {
+  position: absolute;
+  bottom: -16%;
+  right: 10%;
+  animation: spin 4s infinite linear ;
+  -webkit-animation: spin 6s infinite linear ;
+}
+
+@keyframes spin {
+  100%{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+  
+}
+
+#about-main .about .right{
+  text-align: center;
+}
+
+/* about ends */
+
+/* project starts */
+
+#project-main{
+  padding: 150px 0px;
+}
+
+#project-main .project .title-details{
+  margin-bottom: 50px;
+}
+
+#project-main .project .project-details{
+  padding-top: 100px;
+}
+
+#project-main .project .project-details .title-head{
+  color: black;
+  margin-bottom: 20px;
+}
+
+#project-main .project .project-details .project-link a{
+  color: black;
+  padding: 0px 30px ;
+}
+
+/* #project-main .project .project-item{
+        margin: 0px 30px;
+
+    } */
+
+
+/* project ends */
+
+
+/* contact starts */
+
+#contact-main{
+  padding: 20px 0px;
+}
+
+#contact-main .contact .location{
+  background-color: #0B0BA3;
+  color: #fff;
+  padding: 10px 0px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+#contact-main .contact .location h5{
+  color: rgb(174,199,238);
+}
+
+#contact-main .contact .location .left{
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  flex-wrap: wrap;
+}
+
+#contact-main .contact .location .left p .icon{
+  font-size: 40px;
+}
+
+
+
+/* contact ends */
+
+/* footer starts */
+
+#footer-main{
+  background-color: #000000;
+  padding: 80px 0px;
+}
+
+#footer-main .footer p, .footer-link a{
+  font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+#footer-main .footer .footer-link a{
+  margin-left: 10px;
+}
+
+
+/* footer ends */
